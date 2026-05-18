@@ -14,7 +14,7 @@
 #include <utility>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 using namespace ds_vk;
 
@@ -232,4 +232,4 @@ auto BackgroundMusic::reset() -> void
         owns_audio_subsystem_ = false;
     }
 }
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

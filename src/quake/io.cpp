@@ -9,7 +9,7 @@
 #include <system_error>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 auto load_binary_file(const std::filesystem::path& filepath)
     -> std::optional<std::vector<std::byte>>
@@ -38,4 +38,4 @@ auto load_binary_file(const std::filesystem::path& filepath)
     }
     return buf;
 }
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

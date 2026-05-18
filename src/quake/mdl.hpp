@@ -16,7 +16,7 @@
 #include <vector>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 using namespace ds_vk;
 
@@ -151,4 +151,4 @@ struct MdlBinary
     const std::filesystem::path&,
     std::span<const Vec3> alias_normals
 ) -> bool;
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

@@ -40,13 +40,13 @@
 // Only use this on the auto for functions when using trailing return
 #define def auto
 
-namespace quake
+namespace dans::app::quake
 {
 template <typename T>
 [[nodiscard]] constexpr def copy(const T& value) -> std::remove_cvref_t<T>
 {
     return value;
 }
-}  // namespace quake
+}  // namespace dans::app::quake
 
 #endif  // QUAKE_SRC_DEVELOPMENT_MARKERS_HPP

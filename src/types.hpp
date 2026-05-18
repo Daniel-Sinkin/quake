@@ -15,7 +15,7 @@
 #endif
 //
 
-namespace quake
+namespace dans::app::quake
 {
 using usize = std::size_t;
 using isize = std::ptrdiff_t;
@@ -63,6 +63,6 @@ static_assert(sizeof(i64) == 8zu);
 static_assert(sizeof(f32) == 4zu);
 static_assert(sizeof(f64) == 8zu);
 
-}  // namespace quake
+}  // namespace dans::app::quake
 
 #endif  // QUAKE_SRC_TYPES_HPP

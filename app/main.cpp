@@ -7,5 +7,5 @@
 
 auto main(int argc, char** argv) -> int
 {
-    return ds_vk_quake::run_quake_app(argc, argv);
+    return dans::app::quake::run_quake_app(argc, argv);
 }

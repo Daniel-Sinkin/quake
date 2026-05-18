@@ -33,7 +33,7 @@
 #include <vector>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 using namespace ds_vk;
 
@@ -1800,4 +1800,4 @@ auto run_quake_app(int argc, char** argv) -> int
 
     return EXIT_SUCCESS;
 }
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

@@ -12,7 +12,7 @@
 #include <vector>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 class BackgroundMusic
 {
@@ -39,4 +39,4 @@ class BackgroundMusic
     ds_vk::usize cursor_{};
     bool owns_audio_subsystem_{};
 };
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

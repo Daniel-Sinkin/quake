@@ -6,7 +6,7 @@
 // Standard Library
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 [[nodiscard]] auto run_quake_app(int argc, char** argv) -> int;
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake

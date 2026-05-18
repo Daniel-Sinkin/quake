@@ -15,7 +15,7 @@
 #    define DS_VK_QUAKE_SOURCE_DIR "../Quake/WinQuake"
 #endif
 
-namespace ds_vk_quake::paths
+namespace dans::app::quake::paths
 {
 inline const std::filesystem::path asset_root{DS_VK_QUAKE_ASSET_DIR};
 inline const std::filesystem::path source_root{DS_VK_QUAKE_SOURCE_DIR};
@@ -30,4 +30,4 @@ inline auto music_dir = asset_root / "music";
 inline auto palette_dir = asset_root / "palettes";
 inline auto skin_output_dir = quake_root / "outputs" / "skins";
 inline auto gltf_output_dir = quake_root / "outputs" / "gltf";
-}  // namespace ds_vk_quake::paths
+}  // namespace dans::app::quake::paths

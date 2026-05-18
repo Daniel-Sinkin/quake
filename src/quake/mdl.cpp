@@ -23,7 +23,7 @@
 #include <utility>
 //
 
-namespace ds_vk_quake
+namespace dans::app::quake
 {
 using namespace ds_vk;
 
@@ -807,4 +807,4 @@ auto parse_mdl_binary(const std::filesystem::path& filepath) -> std::optional<Md
     return out;
 }
 
-}  // namespace ds_vk_quake
+}  // namespace dans::app::quake
