@@ -26,7 +26,15 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(QUAKE_VORBISFILE REQUIRED IMPORTED_TARGET vorbisfile)
 
-add_subdirectory(external/ds-vk)
+include(FetchContent)
+
+set(DS_VK_GIT_REPOSITORY "git@github.com:Daniel-Sinkin/ds-vk.git" CACHE STRING "ds-vk Git repository")
+set(DS_VK_GIT_TAG "62a43e99905177aef79099308976f70a2bd76a54" CACHE STRING "Frozen ds-vk commit")
+FetchContent_Declare(ds_vk
+  GIT_REPOSITORY "${DS_VK_GIT_REPOSITORY}"
+  GIT_TAG "${DS_VK_GIT_TAG}"
+)
+FetchContent_MakeAvailable(ds_vk)
 
 add_executable(quake
   app/main.cpp
