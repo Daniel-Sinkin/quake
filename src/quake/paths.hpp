@@ -1,3 +1,4 @@
+// src/quake/paths.hpp
 #pragma once
 
 #include <filesystem>

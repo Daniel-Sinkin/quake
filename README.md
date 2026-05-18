@@ -1,3 +1,4 @@
+<!-- README.md -->
 # Quake Vulkan Viewer
 
 Standalone Quake model viewer using `ds-vk` as a git submodule in `external/ds-vk`.
