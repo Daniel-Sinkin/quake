@@ -1,14 +1,18 @@
 // src/quake/background_music.cpp
+// Header
 #include "quake/background_music.hpp"
-
+// Internals
+// Externals
 #define OV_EXCLUDE_STATIC_CALLBACKS
+#include <vorbis/vorbisfile.h>
+// Standard Library
 #include <algorithm>
 #include <array>
 #include <cstring>
 #include <limits>
 #include <print>
 #include <utility>
-#include <vorbis/vorbisfile.h>
+//
 
 namespace ds_vk_quake
 {

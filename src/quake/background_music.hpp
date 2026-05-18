@@ -1,13 +1,16 @@
 // src/quake/background_music.hpp
 #pragma once
 
-#include "ds_vk/types.hpp"
-
+// Internals
+// Externals
 #include <SDL3/SDL.h>
+#include "ds_vk/types.hpp"
+// Standard Library
 #include <cstddef>
 #include <filesystem>
 #include <optional>
 #include <vector>
+//
 
 namespace ds_vk_quake
 {

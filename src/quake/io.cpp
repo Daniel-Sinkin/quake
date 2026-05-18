@@ -1,9 +1,13 @@
 // src/quake/io.cpp
+// Header
 #include "quake/io.hpp"
-
+// Internals
+// Externals
+// Standard Library
 #include <fstream>
 #include <print>
 #include <system_error>
+//
 
 namespace ds_vk_quake
 {

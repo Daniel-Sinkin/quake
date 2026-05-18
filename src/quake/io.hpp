@@ -1,10 +1,14 @@
 // src/quake/io.hpp
 #pragma once
 
+// Internals
+// Externals
+// Standard Library
 #include <cstddef>
 #include <filesystem>
 #include <optional>
 #include <vector>
+//
 
 namespace ds_vk_quake
 {

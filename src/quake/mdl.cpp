@@ -1,12 +1,14 @@
 // src/quake/mdl.cpp
+// Header
 #include "quake/mdl.hpp"
-
+// Internals
 #include "quake/io.hpp"
 #include "quake/paths.hpp"
+// Externals
 #include "ds_vk/assets.hpp"
 #include "ds_vk/math.hpp"
 #include "ds_vk/utility.hpp"
-
+// Standard Library
 #include <cstring>
 #include <exception>
 #include <format>
@@ -19,6 +21,7 @@
 #include <system_error>
 #include <type_traits>
 #include <utility>
+//
 
 namespace ds_vk_quake
 {

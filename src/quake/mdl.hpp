@@ -1,10 +1,12 @@
 // src/quake/mdl.hpp
 #pragma once
 
+// Internals
+// Externals
 #include "ds_vk/geometry.hpp"
 #include "ds_vk/mesh.hpp"
 #include "ds_vk/types.hpp"
-
+// Standard Library
 #include <array>
 #include <filesystem>
 #include <optional>
@@ -12,6 +14,7 @@
 #include <string>
 #include <string_view>
 #include <vector>
+//
 
 namespace ds_vk_quake
 {

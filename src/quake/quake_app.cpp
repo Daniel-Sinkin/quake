@@ -1,26 +1,28 @@
 // src/quake/quake_app.cpp
+// Header
 #include "quake/quake_app.hpp"
-
+// Internals
 #include "quake/background_music.hpp"
 #include "quake/io.hpp"
 #include "quake/mdl.hpp"
 #include "quake/paths.hpp"
+// Externals
 #include "ds_vk/math.hpp"
 #include "ds_vk/mesh.hpp"
 #include "ds_vk/plugins/picker.hpp"
 #include "ds_vk/plugins/viz.hpp"
 #include "ds_vk/runtime.hpp"
 #include "ds_vk/types.hpp"
-
+#include <imgui.h>
+// Standard Library
 #include <algorithm>
 #include <array>
 #include <cmath>
 #include <cstdlib>
-#include <exception>
 #include <cstring>
+#include <exception>
 #include <filesystem>
 #include <format>
-#include <imgui.h>
 #include <limits>
 #include <optional>
 #include <print>
@@ -29,6 +31,7 @@
 #include <string_view>
 #include <utility>
 #include <vector>
+//
 
 namespace ds_vk_quake
 {

@@ -1,7 +1,11 @@
 // src/quake/paths.hpp
 #pragma once
 
+// Internals
+// Externals
+// Standard Library
 #include <filesystem>
+//
 
 #ifndef DS_VK_QUAKE_ASSET_DIR
 #    define DS_VK_QUAKE_ASSET_DIR "quake/assets"
