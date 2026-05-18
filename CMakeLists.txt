@@ -39,6 +39,10 @@ target_include_directories(quake PRIVATE
   ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
+target_precompile_headers(quake PRIVATE
+  ${CMAKE_CURRENT_SOURCE_DIR}/src/pch.hpp
+)
+
 target_compile_definitions(quake PRIVATE
   DS_VK_ASSET_DIR="${CMAKE_CURRENT_SOURCE_DIR}/local/assets"
   DS_VK_QUAKE_ASSET_DIR="${CMAKE_CURRENT_SOURCE_DIR}/local/assets/quake"
